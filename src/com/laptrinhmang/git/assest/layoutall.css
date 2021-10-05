@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.frame{
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    margin-top: 50px;
+
+}
+.main-first{
+    /* position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+   */
+    border-top: 2px solid #737373;
+    border-left: 2px solid #737373;
+    border-right: 2px solid #000;
+    border-bottom: 2px solid #000;
+
+    width: 552px;
+    min-height: 275px;
+
+}
+.header-page{
+    background-color: #D3D3D3;
+    width: 544px;
+    height: 59px;
+    border: 1px solid #929494;
+    margin: 1px 2px;
+
+}
+.header-text{
+    text-transform: uppercase;
+    color: #000;
+    font-size: 30px;
+    font-weight: 700;
+}
+.container-page{
+    width: 100%;
+    display: inline-block;
+    margin: 1px 2px;
+}
+.menu{
+    background-color: #EEE8AA;
+    width: 120px;
+    height: 190px;
+    display: inline-block;
+    border: 1px solid #929494;
+
+}
+.main-menu{
+    color: #000;
+    font-weight: 600;
+}
+.menu-item{
+    font-weight: 50;
+    list-style-type: none;
+}
+.table{
+    width: 420px;
+    height: 190px;
+    float: right;
+    background-color:#fff;
+    border: 1px solid #929494;
+    margin: 0 4px;
+}
+.table-text{
+
+}
+.footer-page{
+    margin: 1px 2px;
+    text-align: center;
+    background-color: #D3D3D3;
+    border: 1px solid #929494;
+
+}
+.main-second{
+    margin: 28px 0;
+    width: 552px;
+    height: 369px;
+}
+.header-section{
+    height: 48px;
+}
+.header-section-text{
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 48px;
+    text-align: center;
+    border: 1px solid #000000;
+
+}
+.nav{
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 48px;
+    text-align: center;
+    border: 1px solid #000000;
+    border-top: none;
+
+}
+.container-section{
+    height: 190px;
+    display: flex;
+    width: 100%;
+
+}
+
+.index-section{
+    text-align: center;
+    width: 105px;
+    border: 1px solid #000000;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+    line-height: 190px;
+    font-size: 25px;
+}
+.content-section {
+    border: 1px solid #000000;
+
+    width: 455px;
+    border-top: none;
+    border-bottom: none;
+}
+.content-text{
+    line-height: 190px;
+
+    font-size: 25px;
+    text-align: start;
+    padding-left: 90px;
+}
+.footer-section{
+    height: 87px;
+    text-align: center;
+    line-height: 87px;
+    font-size: 25px;
+    border: 1px solid #000000;
+
+}
+.main-end{
+    width: 552px;
+    margin-bottom: 10px;
+
+}
+.header-last{
+    padding: 20px 0;
+    height: 93px;
+    background-color: #C4996C;
+    border: 2px solid #7A766F;
+    color: #fff;
+
+    margin-bottom: 10px;
+}
+.header-last-name{
+    text-align: center;
+    font-size: 22px;
+
+}
+.header-size{
+
+    text-align: center;
+    font-size: 20px;
+}
+.container-last{
+
+}
+.company{
+    height: 174px;
+    border: 2px solid #7A766F;
+    background-color: #CFCFD1;
+    color: #fff;
+
+
+}
+.company-image{
+    list-style-type: none;
+    line-height: 94px;
+    text-align: center;
+    font-size: 30px;
+}
+.company-item{
+    line-height: 25px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.ourservice{
+    height: 457px;
+
+}
+.name-ourservice{
+    text-align: center;
+    color: #3A3A3A;
+    font-size: 25px;
+    padding: 20px 0;
+    font-weight: 300;
+}
+.service-list{
+
+    margin-left: 5px;
+    margin-right: -10px;
+    display: flex;
+
+    flex-wrap: wrap;
+}
+.service-item{
+    border: 2px solid #7A766F;
+
+    color: #E1E3E3;
+    background-color: #A8A9AD;
+    margin: 10px 20px;
+    width: 25.333%;
+    height: 152px;
+    text-align: center;
+    font-size: 20px;
+}
+.service-name{
+    padding : 50px 0 10px;
+
+}
+.service-w{
+
+}
+.service-h{
+
+}
+.footer-last{
+    border: 2px solid #363434;
+    margin-top: -25px;
+    height: 95px;
+    background-color: #115D7F;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 20px;
+    font-weight: 200px;
+    border-bottom: none;
+    margin-bottom: 100px;
+}
